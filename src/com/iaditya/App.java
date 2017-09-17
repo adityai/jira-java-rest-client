@@ -100,7 +100,7 @@ public class App {
     	}
     	
     	//Set Jira URL
-    	jiraUrl=System.getenv("BSC_JIRA_URL");
+    	jiraUrl=System.getenv("JIRA_URL");
     	if (jiraUrl == null) {
 			System.out.println("\nJIRA URL is required. " );
 			System.exit(1);
